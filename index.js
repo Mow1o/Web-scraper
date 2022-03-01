@@ -1,4 +1,4 @@
-const PORT = 8080
+const PORT = process.env.PORT || 8080
 const express = require('express') /* package */
 const axios = require('axios') /* package */
 const cheerio = require('cheerio') /*package */
