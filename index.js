@@ -36,11 +36,7 @@ const lehdet = [
         address: 'https://www.lapinkansa.fi/',
         base: 'https://www.lapinkansa.fi'
     },
-    {
-        name: 'yle',
-        address: 'https://yle.fi/uutiset/',
-        base: 'https://yle.fi'
-    },
+
 ]
 
 const articles = []
