@@ -7,32 +7,32 @@ const app = express()
 
 const lehdet = [
     {
-        name: 'hesari',
+        name: 'Hesari',
         address: 'https://www.hs.fi/politiikka/',
         base: 'https://www.hs.fi'
     },
     {
-        name: 'aamulehti',
+        name: 'Aamulehti',
         address: 'https://www.aamulehti.fi/',
         base: 'https://www.aamulehti.fi'
     },
     {
-        name: 'iltasanomat',
+        name: 'Iltasanomat',
         address: 'https://www.is.fi/',
         base: 'https://www.is.fi'
     },
     {
-        name: 'iltalehti',
+        name: 'IUltalehti',
         address: 'https://www.iltalehti.fi/',
         base: 'https://www.iltalehti.fi'
     },
     {
-        name: 'ts',
+        name: 'Turun-sanomat',
         address: 'https://www.ts.fi/',
         base: 'https://www.ts.fi'
     },
     {
-        name: 'lapinkansa',
+        name: 'Lapinkansa',
         address: 'https://www.lapinkansa.fi/',
         base: 'https://www.lapinkansa.fi'
     },
@@ -40,6 +40,9 @@ const lehdet = [
 ]
 
 const articles = []
+
+
+
 
 lehdet.forEach(lehti => {
     axios.get(lehti.address)
@@ -55,6 +58,7 @@ lehdet.forEach(lehti => {
                     title,
                     url: lehti.base + url,
                     source: lehti.name
+
                 })
 
             })
