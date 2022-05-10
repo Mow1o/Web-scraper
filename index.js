@@ -7,7 +7,7 @@ const app = express()
 
 const lehdet = [
     {
-        name: 'Hesari',
+        name: 'Helsingin-sanomat',
         address: 'https://www.hs.fi/politiikka/',
         base: 'https://www.hs.fi'
     },
