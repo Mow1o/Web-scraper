@@ -22,7 +22,7 @@ const lehdet = [
         base: 'https://www.is.fi'
     },
     {
-        name: 'IUltalehti',
+        name: 'Iltalehti',
         address: 'https://www.iltalehti.fi/',
         base: 'https://www.iltalehti.fi'
     },
